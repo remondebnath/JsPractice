@@ -4,11 +4,12 @@ function main(input) {
   const number2 = parseFloat(numbers[1]);
 
  
-   
+    const sum = number1 + number2;
+    console.log(sum);
   
-  const name= input.trim();
+  // const name= input.trim();
   
-  console.log(`${name},good morning good morning`)
+  // console.log(`${name},good morning good morning`)
 
 }
 
