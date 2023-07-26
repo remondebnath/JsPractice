@@ -1,5 +1,18 @@
 {
   "dependencies": {
     "node": "^20.4.0"
-  }
+  },
+  "name": "jspractice",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "scripts": {
+    "start-dev": "nodemon main.js"
+  },
+  "keywords": [],
+  "author": "Remon Deb Nath",
+  "license": "ISC",
+  "description": ""
 }
