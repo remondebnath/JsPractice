@@ -2,7 +2,7 @@
 // turn into array
 let text = "HELLO WORLD";
 
-console.log(text.split(""));
+console.log(text.split("")); //simillarApproch//console.log(Array.from(text))
 console.log(text.split(" "))
 console.log(text.split(","))
 

@@ -1,14 +1,9 @@
-// adding two array and sort out
-const numbers = [44, 33, 22, 11];
 
-const ages = [32, 33, 16, 4];
-
-const newArr=numbers.concat(ages)
+// process.stdin.on('data', data => {
+//     main(data.toString().trim());
+// })
 
 
-console.log(numbers.map((item)=>item*10))
+const fruit = ["Banana", "Orange", "Apple", "Mango"];
 
-console.log(ages.filter((item)=>item>21))
-
-console.log(newArr.sort((a,b)=>a-b));
-
+console.log(fruit.forEach((index)=>{return index}))
